@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="blackLight">#47525E</color>
+    <color name="turqouise">#70969B</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="backgrundMask">#5a000000</color>
+
+    <color name="redLight">#F2737B</color>
+    <color name="redLipstick">#CA2026</color>
+    <color name="blueLight">#53598F</color>
+    <color name="blue">#292D56</color>
+
+    <color name="greyBg">#E1E1E1</color>
+    <color name="greyBgL">#D4D4D4</color>
+    <color name="pinkish_grey">#bcbcbc</color>
+    <color name="dusty_blue">#5e81a7</color>
+
+    <!--other-->
+    <color name="whiteTransparenc">#80FFFFFF</color>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/dark_gray</color>
+    <color name="colorAccent">@color/blue_button</color>
+    <color name="gray">#BCBCBC</color>
+    <color name="dark_gray">#6F6F6F</color>
+    <color name="blackBlack">#000</color>
+    <color name="blue_grey">#263238</color>
+    <color name="a_red">#f9bbbc</color>
+    <color name="yellow">#D29B0B</color>
+    <color name="green">#32F50C</color>
+    <color name="green_alpha">#3A32F50C</color>
+    <color name="light_blue">#00F5D2</color>
+
+    <color name="text_light_gray">#BCBCBC</color>
+    <color name="text_gray">#9F9F9F</color>
+    <color name="blue_button">#45B2CB</color>
+    <color name="blue_home_bg">#5296A3</color>
+    <color name="grey_light">#597A83</color>
+
+
+
+</resources>

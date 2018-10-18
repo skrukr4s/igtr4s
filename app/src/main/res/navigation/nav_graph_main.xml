@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.r4s.igt.ui.main.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_gamedetailsFragment"
+            app:destination="@id/gamedetailsFragment"
+            app:enterAnim="@anim/trans_in"
+            app:exitAnim="@anim/trans_out"
+            app:popEnterAnim="@anim/trans_in"
+            app:popExitAnim="@anim/trans_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamedetailsFragment"
+        android:name="com.r4s.igt.ui.main.gameData.GamedetailsFragment"
+        android:label="GamedetailsFragment"
+        tools:layout="@layout/fragment_gamedetails">
+        <argument
+            android:name="game"
+            app:argType="com.r4s.igt.controllers.models.GameData" />
+    </fragment>
+
+</navigation>

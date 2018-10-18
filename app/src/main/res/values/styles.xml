@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/dark_gray</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+
+    <style name="TextStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="ProgressBarCustomStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/white</item>
+    </style>
+
+
+    <style name="myPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textAppearance">@style/myPopupMenuTextAppearanceLarge</item>
+        <item name="android:textColor">@color/blackBlack</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceSmall" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/blackBlack</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceLarge" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/blackBlack</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ConParent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="MatchWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchHeight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchVertical" parent="Match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchHorizontal" parent="Match">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapVertical" parent="Wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapHorizontal" parent="Wrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchWidthVertical" parent="MatchWidth">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchHeightVertical" parent="MatchHeight">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchWidthHorizontal" parent="MatchWidth">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchHeightHorizontal" parent="MatchHeight">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+
+</resources>

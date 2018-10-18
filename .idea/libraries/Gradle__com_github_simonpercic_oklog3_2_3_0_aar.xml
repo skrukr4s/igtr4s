@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.simonpercic:oklog3:2.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-oklog3-2.3.0.aar/c9c3f5d287ac929013f5a0bbd435c5bb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-oklog3-2.3.0.aar/c9c3f5d287ac929013f5a0bbd435c5bb/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.simonpercic/oklog3/2.3.0/54688cdff0def967f971029ee8b04d11ac1cdcae/oklog3-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
