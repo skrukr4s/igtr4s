@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">IDG</string>
+    <string name="app_name">IGT</string>
 
     <string name="your_games">Your games:</string>
     <string name="error_try">Error, try again!</string>
